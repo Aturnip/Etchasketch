@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+    width: 70%;
+    border: solid;
+    border-color: red;
+}
+
+.verticalContainer {
+    width: 100%;
+    height: 100%;
+    background-color: yellow;
+    display: flex;
+}
+
+.pixel {
+    flex: 1;
+    background-color: black;
+}
